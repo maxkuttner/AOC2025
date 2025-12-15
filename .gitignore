@@ -1,0 +1,41 @@
+# ===== OCaml / Dune =====
+_build/
+*.install
+*.exe
+*.bc
+*.native
+*.byte
+*.cm*
+*.a
+*.o
+*.obj
+*.annot
+*.cmt
+*.cmti
+*.cmx
+*.cmi
+*.cma
+*.cmxa
+*.cmxs
+*.pp.ml
+*.pp.mli
+
+# Dune cache (if enabled)
+.dune/
+
+# ===== OPAM =====
+.opam/
+.opam-switch/
+_opam/
+.opam-switch/
+
+# ===== Editors =====
+# VS Code
+.vscode/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
